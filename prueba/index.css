@@ -1,0 +1,59 @@
+body {
+    background: url(picture/astro.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #6464;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 15%;
+    box-shadow: 0 0 5px rgba(0, 161, 27, 0.1)
+}
+
+
+td, th {
+    border: 3px solid;
+    animation: color 40s linear infinite alternate both;
+    padding: 7px;
+    text-align: left;
+    color: #333;
+}
+
+tbody tr:hover {
+    background-color: #dddddd;
+    transition: background-color 0.3s ease;
+}
+
+table {
+    animation: BGcolorchanging-5colors 8s linear infinite alternate both;
+}
+
+@keyframes BGcolorchanging-5colors {
+    0%{
+        background: #f60101;
+    }
+    20%{
+        background: #f69001;
+    }
+    40%{
+        background: #eef601;
+    }
+    60%{
+        background: #22f601;
+    }
+    80%{
+        background: #3201f6;
+    }
+    100%{
+        background: #58008f;
+    }
+}
