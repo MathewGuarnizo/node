@@ -4,12 +4,13 @@ body {
 
 h1 {
     text-align: center;
-    color: aqua;
+    color: rgb(255, 0, 0);
     font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 table {
+    animation: BGcolorchanging-5colors 10s linear infinite alternate both;
     width: 100%;
     border-collapse: collapse;
     border: 2px solid #6464;
@@ -31,10 +32,6 @@ td, th {
 tbody tr:hover {
     background-color: #dddddd;
     transition: background-color 0.3s ease;
-}
-
-table {
-    animation: BGcolorchanging-5colors 8s linear infinite alternate both;
 }
 
 @keyframes BGcolorchanging-5colors {
