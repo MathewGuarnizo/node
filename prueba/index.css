@@ -1,5 +1,5 @@
 body {
-    background: url(picture/astro.jpg);
+    background-image: url(picture/colores.jpg);
 }
 
 h1 {
@@ -58,4 +58,23 @@ tbody tr:hover {
     100%{
         background: #58008f;
     }
+}
+
+p {
+    color: #ffffff;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+}
+
+.parrafo {
+    animation: BGcolorchanging-5colors 10s linear infinite alternate both;
+    width: 100%;
+    border: 2px solid #6464;
+    border-radius: 25%;
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 70%;
 }
