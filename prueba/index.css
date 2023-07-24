@@ -22,7 +22,7 @@ table {
 
 .picture {
     width: 100%;
-    margin: 25%;
+    margin: 23%;
 }
 
 
@@ -77,13 +77,4 @@ p {
     margin-top: 15px;
     margin-left: 15%;
     width: 70%;
-}
-
-.parrafo2 {
-    animation: BGcolorchanging-5colors 10s linear infinite alternate both;
-    border: 2px solid #6464;
-    border-radius: 25%;
-    margin-top: 15px;
-    margin-left: 15%;
-    width: 7%;
 }
