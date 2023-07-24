@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const port = process.env.port || 3030;
 
-app.use(cors());
+app.use(cors()); 
 app.use(express.json());
 
 const deportes = [
